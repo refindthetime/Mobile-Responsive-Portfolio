@@ -246,6 +246,7 @@ input[type=submit] {
     position: static;
 }
 
+nav {text-align: center;}
 .sidebar {
   
   width: 100%;
@@ -264,12 +265,11 @@ input[type=submit] {
   width: 640px;
          }
 }
-.nav a {
 
-
-}
 
 @media screen and (max-width: 768px) {
+
+#masthead {}
 
 .sidebar {
   
@@ -279,7 +279,8 @@ input[type=submit] {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
-  text-align: left;}
+  text-align: left;
+  position: relative;}
   
 
 }
